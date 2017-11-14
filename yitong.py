@@ -18,8 +18,8 @@ class YiTong:
 		viewstate = soup.find_all(attrs={"name": "__VIEWSTATE"})[0].get("value")
 		data = {
 			"__VIEWSTATE": viewstate,
-			"txtUserName": "2014210193",
-			"TextBox2": "wj199816",
+			"txtUserName": "账号",
+			"TextBox2": "密码",
 			"txtSecretCode": self.yzm,
 			'Button1': ''
 		}
